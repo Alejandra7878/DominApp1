@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+  padding: 5px;
+}
+
+body {
+  border-radius: 10px;
+  background-color: rgb(239, 233, 233);
+  border-style: double;
+  border-color: black;
+}
+
+.contaiones {
+  text-align: center;
+}
+
+
+.card-body {
+  max-width: 500px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  
+}
+
+.botonEnv {
+  background-color: rgb(8, 150, 8); 
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.card2 {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+
+
+
+/* .list-group,
+.list-group-item {
+  font-size: 14px;
+}
+
+.list-group {
+  max-width: 300px;
+} */
+
+
+@media (max-width: 768px) {
+  .card-body {
+    font-size: 1rem;
+  }
+
+  .card2 {
+    font-size: 1rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+  }
+}
